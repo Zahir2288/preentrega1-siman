@@ -18,10 +18,10 @@ h1,h2,h3 {
 body{background-color: aqua;}
 nav ul li {
   font-size: 22px;
-border: purple solid 2px;
-margin: 2px;
+border: purple solid 3px;
+margin: 1px;
 }
-  .Mayùscula {
+  .Mayuscula {
     text-transform: capitalize;
   }
   footer{
@@ -51,7 +51,7 @@ margin: 2px;
     list-style-type: none;
   }
   li{
-    margin: 50px;
+    margin: 10px;
     display: inline-block;
   }
   a{
