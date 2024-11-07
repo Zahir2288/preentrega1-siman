@@ -18,7 +18,7 @@ h1,h2,h3 {
 body{background-color: aqua;}
 nav ul li {
   font-size: 22px;
-border: purple solid 3px;
+border: purple solid auto;
 margin: 1px;
 }
   .Mayuscula {
