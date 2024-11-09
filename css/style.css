@@ -70,14 +70,6 @@ margin: 1px;
     grid-template-columns: 1fr;
     gap: 16px;
   }
-  .textimg2{
-    position: relative;
-    width: 300px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 8px;
-  }
   .imgGral1{
     width: 100%;
     height: auto;
