@@ -228,13 +228,10 @@ background-color: purple;}
 
 .Footerej2 { grid-area: Footerej2;
   background-color:rgb(226, 22, 100) }
-  .whats{
-    position: fixed;
-    width: 60px;
-    height: 60px;
+  .fa-brands{
+    width: 30px;
+    height: 30px;
     background-color: white;
-    bottom: 40px;
-    right: 40px;
     color: rgb(8, 209, 8);
     border-radius: 50%;
     text-align:center;
@@ -244,7 +241,7 @@ background-color: purple;}
   background-color: rgb(201, 197, 197);
 }
 .fa-whatsapp{
-  font-size: 53px;
+  font-size: 23px;
 }
 
 @media screen  and (max-width: 768px) {
