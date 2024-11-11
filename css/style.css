@@ -228,21 +228,22 @@ background-color: purple;}
 
 .Footerej2 { grid-area: Footerej2;
   background-color:rgb(226, 22, 100) }
-  .fa-brands{
+  .fw{
+    position: absolute;
     width: 30px;
     height: 30px;
-    background-color: white;
-    color: rgb(8, 209, 8);
+    margin-bottom: 50px;
     border-radius: 50%;
-    text-align:center;
-    z-index: 999;
+    text-align:center; 
   }
-.whats:hover {
-  background-color: rgb(201, 197, 197);
-}
-.fa-whatsapp{
-  font-size: 23px;
-}
+  .fi{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    border-radius: 50%;
+    text-align:center; 
+  }
 
 @media screen  and (max-width: 768px) {
   .container3{
