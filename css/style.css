@@ -43,6 +43,18 @@ margin: 1px;
   color: blue;
   border-radius: 20px;
   } 
+.hmenu2{
+  display: block; 
+  background-color: black;
+  color: blue;
+  border-radius: 20px;
+} 
+.pp{
+  text-align: center;
+}
+  .foooter_li{
+    display: block;
+  }
 .Centroverde{
   text-align: center;
     color: green;
