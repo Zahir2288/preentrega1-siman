@@ -239,6 +239,22 @@ background-color: purple;}
 .Footerej2 { grid-area: Footerej2;
   background-color:rgb(226, 22, 100) }
 
+.hmenu2{
+  display: block; 
+  position: absolute;
+  border-radius: 40%;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    background-color: aqua;
+    color: green;
+}
+
+.footerli{display: block;
+
+}
 
 @media screen  and (max-width: 768px) {
   .container3{
