@@ -1,308 +1,32 @@
-*{
-  margin: 0;
-  padding: 0%;
-  box-sizing: border-box;
-}
-p{
-    color: rgb(90, 90, 168);
-    font-size: 1.4rem;
-    margin: 5px;
-    font-family: "Inter", sans-serif;
-    text-align: left;
-    padding: 15px;
-    line-height: 1.5;
-}
-h1 {text-align: center;}
-h1,h2,h3 {
-  font-family: "Salsa", cursive;;
-}
-body{background-color: aqua;}
-nav ul li {
-  font-size: 22px;
-  margin: 5px;
-}
-  .Mayuscula {
-    text-transform: capitalize;
-  }
-  footer{
-    padding: 18px;
-    font-family: "Noto Serif", serif;
-  }
-.Px20{
-  font-size: 20px;
-}
-.Logofit{
-  text-align: center;
-}
-.LogofitC{
-  border-radius: 50%;
-  border: solid purple 3px;
-}
-.hmenu:hover { 
-  background-color: black;
-  color: blue;
-  border-radius: 20px;
-  } 
-.Centroverde{
-  text-align: left;
-    color: green;
-    margin: 50px;
-  }
-  .centronegro {
-    text-align: center;
-    margin: 10px;
-  }
-  ul{
-    list-style-type: none;
-  }
-  li{
-    margin: 10px;
-    display: inline-block;
-  }
-  a{
-    color: black;
-    font-size: 1em;
-    margin: 5px;  
-    border: purple 1px solid;
-    padding: 2px;
-    background-color: grey;
-   }
-  .textimg{
-    position: relative;
-    width: 300px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-  .imgGral1{
-    width: 100%;
-    height: auto;
-  }
-  .imgsed1{
-    aspect-ratio: 1/1;
-    width: 250px;
-  }
-  .imgsed2{
-aspect-ratio: 1/1;
- width: 300px;
- height: 200px;
-  }
-  .imgsed3 {
-    aspect-ratio: 1/1;
-    width: 250px;
-  }
-.imgsed4 {
+@charset "UTF-8";
+head .Mayuscula {
   aspect-ratio: 1/1;
-  width: 250px;
-}
-.imgtext{
-position: absolute;
-top: 0%;
-left: 25%;
-text-align: center;
-color: blue;
-background-color: rgb(153, 174, 194);
-font-size: 1.5rem;
-padding: 5px 10px;
-}
-.imgtext2 {
-  position: absolute;
-  bottom: 46%;
-left: 39%;
-text-align: center;
-color: blue;
-background-color: aqua;
-font-size: 1.2rem;
-padding: 5px 10px;
-}
-  .caja{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    border: 2px solid blue;
-    text-align: center;
-    line-height: 100px;
-    margin: 5px;
-    flex-grow: -1;
-  }
-  .contenedor{
-    display: flex;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .navbar{
-    background-color: rgb(1, 1, 10);
-  }
-  .navbar ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .navbar li {
-    margin: 0 15px;
-  }
-  .navbar2{
-    color: rgb(243, 243, 239);
-    text-decoration: none;
-    padding: 15px 20px;
-    display: block;
-  }
-  .container {
-    display: flex;
-  }
-  .sidebar{
-    width: 25%;
-    background-color: aquamarine;
-    padding: 20px;
-  }
-  .main-content{
-    width: 75%;
-    background-color: brown;
-    padding: 20px;
-  }
-  .grid-container{
-    display: grid;
-    height: 100vh ;
-    grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(6, 200px);
-    gap: 5px;
-  }
-  .grid-item{
-    background-color: aqua;
-    text-align: left;
-    width: 300px;
-    height: 200px;
-    gap: 10px;
-    margin: 10px;
-  }
-  .fc{
-    text-align: left;
-    aspect-ratio: 1/1;
-    width: 300px;
-    height: 200px;
-    gap: 20px;
-    margin-left: 20px;
-  }
-.sedem{
-  margin-bottom: 20px ;
 }
 
-
-.container3{
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 4fr 1fr;
-  grid-template-columns: 1fr 3fr;
-  gap: 10px;
-  grid-template-areas: 
-  "headervi  headervi"
-  "mainvi asidevi"
-  "footervi  footervi";}
-.headervi{
-  background-color: tomato;
-  grid-area: headervi;
+body {
+  background-color: aqua;
 }
-.h2vi{
-  color: aliceblue;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+body .Mayuscula .Logofit {
+  margin: auto;
 }
-.mainvi{
-  background-color: blueviolet;
-  grid-area: mainvi;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+body .Mayuscula .Logofit .LogofitC {
+  margin: auto;
 }
-.asidevi{
-background-color: black;
-grid-area: asidevi;
+body nav ul .hmenu {
+  margin: auto;
 }
-.footervi{
-background-color: chartreuse;
-grid-area: footervi;
+body main .centronegro {
+  margin: auto;
 }
-.divvi{
-  border: 2px black solid;
-  width: 100px;
-  height: 100px;
+body main .centroverde {
+  margin: auto;
 }
-.containerej2 {  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-template-rows: 0.5fr 3fr 0.5fr;
-  gap: opx opx;
-  grid-auto-flow: row;
-  grid-template-areas:
-     "Menuej2 Headerej2 Headerej2"
-     "Menuej2  Section-1 Section-2"
-    "Footerej2 Footerej2 Footerej2";
+body main .Mayuscula .Px20 {
+  margin: auto;
 }
 
-.Menuej2 { grid-area: Menuej2;
-background-color: orange; }
-
-.Headerej2 { grid-area: Headerej2;
-background-color: purple;}
-
-.Section-1 { grid-area: Section-1; 
-  background-color:skyblue}
-
-.Section-2 { grid-area: Section-2; 
-  background-color:green}
-
-.Footerej2 { grid-area: Footerej2;
-  background-color:rgb(226, 22, 100) }
-  .grid__container{    
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    grid-template-rows: repeat(2, 70px);
-    gap: 10px;
-    margin: 5px;
-    width: 40%;
-    height: 50%;}
-  .tamano {
-    width: 200px;
-    border: 3px aquamarine;
-    margin: 5px;
-  }
-  .grid__text{
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    color: black;
-    border: 2px;
-    background-color: grey;
-
-  }
-
-
-@media screen  and (max-width: 768px) {
-  .container3{
-    height: 80vh;
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    grid-template-columns: repeat(2 auto);
-    gap: 5px;
-    grid-template-areas: 
-    "headervi  headervi"
-    "mainvi   asidevi";}
-   
-    .mainvi{
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;}
-  }
-
-@media screen and (max-width: 480px){
-
-  .mainvi{
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);}
-    .footervi{
-      background-color: chartreuse;
-      grid-area: footervi;}
+footer .Mayùscula .Px20 {
+  height: 10px;
 }
+
+/*# sourceMappingURL=Style.css.map */
