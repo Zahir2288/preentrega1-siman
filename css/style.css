@@ -251,9 +251,8 @@ background-color: purple;}
     background-color: aqua;
     color: green;
 }
-
-.footerli{display: block;
-
+.textn{
+  text-decoration: none;
 }
 
 @media screen  and (max-width: 768px) {
