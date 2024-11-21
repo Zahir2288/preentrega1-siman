@@ -101,31 +101,34 @@ aspect-ratio: 1/1;
   aspect-ratio: 1/1;
   width: 250px;
 }
-
 .sedem{
   margin-bottom: 20px;
 }
 
-.imgtext{
-position: absolute;
-top: 0%;
-left: 25%;
-text-align: center;
-color: blue;
-background-color: rgb(153, 174, 194);
-font-size: 1.5rem;
-padding: 5px 10px;
+.grid-container{
+  display: grid;
+  height: 100vh ;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(6, 200px);
+  gap: 5px;
 }
-.imgtext2 {
-  position: absolute;
-  bottom: 46%;
-left: 39%;
-text-align: center;
-color: blue;
-background-color: aqua;
-font-size: 1.2rem;
-padding: 5px 10px;
+.grid-item{
+  background-color: aqua;
+  text-align: left;
+  width: 300px;
+  height: 200px;
+  gap: 10px;
+  margin: 10px;
 }
+.fc{
+  text-align: left;
+  aspect-ratio: 1/1;
+  width: 300px;
+  height: 200px;
+  gap: 20px;
+  margin-left: 20px;
+}
+
   .caja{
     width: 200px;
     height: 200px;
@@ -174,83 +177,6 @@ padding: 5px 10px;
     background-color: brown;
     padding: 20px;
   }
-  .grid-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 50px);
-    gap: 5px;
-  }
-  .grid-item{
-    background-color: saddlebrown;
-    border: 1px solid blue;
-    padding: 20px;
-    text-align: center;
-  }
-.container3{
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 4fr 1fr;
-  grid-template-columns: 1fr 3fr;
-  gap: 10px;
-  grid-template-areas: 
-  "headervi  headervi"
-  "mainvi asidevi"
-  "footervi  footervi";}
-.headervi{
-  background-color: tomato;
-  grid-area: headervi;
-}
-.h2vi{
-  color: aliceblue;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-}
-.mainvi{
-  background-color: blueviolet;
-  grid-area: mainvi;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.asidevi{
-background-color: black;
-grid-area: asidevi;
-}
-.footervi{
-background-color: chartreuse;
-grid-area: footervi;
-}
-.divvi{
-  border: 2px black solid;
-  width: 100px;
-  height: 100px;
-}
-.containerej2 {  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-template-rows: 0.5fr 3fr 0.5fr;
-  gap: opx opx;
-  grid-auto-flow: row;
-  grid-template-areas:
-     "Menuej2 Headerej2 Headerej2"
-     "Menuej2  Section-1 Section-2"
-    "Footerej2 Footerej2 Footerej2";
-}
-
-.Menuej2 { grid-area: Menuej2;
-background-color: orange; }
-
-.Headerej2 { grid-area: Headerej2;
-background-color: purple;}
-
-.Section-1 { grid-area: Section-1; 
-  background-color:skyblue}
-
-.Section-2 { grid-area: Section-2; 
-  background-color:green}
-
-.Footerej2 { grid-area: Footerej2;
-  background-color:rgb(226, 22, 100) }
 
 .hmenu2{
   display: block; 
