@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,12 +38,29 @@
 </header>
 <main>
     <h2>Como Encontrarnos</h2>
-    <section class="textimg2">
-    <div><img class="imgsed1" src="../img/Sed.jpg" alt="Sede1"></div>
-    <div></div><img class="imgsed2" src="../img/Sed2.jpg" alt="Sede2"></div>
-    </section>
-    <hr>
-</main>
+    
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        Sede San cristobal
+      </button>
+      <div class="sedem" style="min-height: 120px;">
+        <div class="collapse collapse-vertical" id="collapseWidthExample"> 
+          <img class="imgsed1" src="../img/Sed.jpg" alt="Sede1">
+          <img class="imgsed2" src="../img/Sed2.jpg" alt="Sede2">
+        </div>
+    </div>
+      
+        <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseheightExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Sede Belgrano
+          </button>    
+          <div class="sedem" style="min-height: 120px;">
+            <div class="collapse collapse-vertical" id="collapseheightExample"> 
+              <img class="imgsed3" src="../img/Sed3.jpg" alt="Sede3">
+              <img class="imgsed4" src="../img/sed4.jpg" alt="Sede4">
+            </div>  
+        </div>
+        <hr>
+  </main>
+  
 <footer>
     <nav>
         <ol>
@@ -51,6 +69,7 @@
             <li><a href="https://www.instagram.com/gymfit/?hl=es">Instagram</a><img class="hmenu2" src="../img/insta-we.png" alt="Instagramlog"></li>
         </ol>
     </nav> 
-</footer>    
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
