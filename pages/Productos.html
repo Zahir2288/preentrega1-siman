@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GymFit💪</title>
@@ -37,10 +38,14 @@
     <div class="grid-container">
         <div class="grid-item"> <img class="fc" src="../img/Barras.jpg" alt="Barras"></div>
         <div class="grid-item"><img class="fc" src="../img/Mancuernas.jpg" alt="mancuernas"></div>
-        <div class="grid-item"><img class="fc" src="../img/gym.jpg" alt="cinta"></div>
-        <div class="grid-item"><img class="fc" src="../img/gyml.jpg" alt="maquinaria"></div>
-        <div class="grid-item"><img class="fc" src="../img/maqu2.jpg" alt="maquinaria2"></div>
-        <div class="grid-item"><img class="fc" src="../img/eliptica.jpg" alt="eliptica"></div>
+       
+        <div class="grid-item" data-aos="fade-right"><img class="fc" src="../img/gym.jpg" alt="cinta"></div>
+       
+        <div class="grid-item" data-aos="fade-right"><img class="fc" src="../img/gyml.jpg" alt="maquinaria"></div>
+       
+        
+        <div class="grid-item" data-aos="fade-left"><img class="fc" src="../img/maqu2.jpg" alt="maquinaria2"></div>
+        <div class="grid-item" data-aos="fade-left"><img class="fc" src="../img/eliptica.jpg" alt="eliptica"></div>
     </div>
     
     <hr>
@@ -53,6 +58,8 @@
             <li><a href="https://www.instagram.com/gymfit/?hl=es">Instagram</a><img class="hmenu2" src="../img/insta-we.png" alt="Instagramlog"></li>
         </ol>
     </nav> 
-</footer>    
+</footer> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>   
 </body>
 </html>
