@@ -35,10 +35,14 @@ margin: 1px;
 }
 .Logofit{
   text-align: center;
+  background-color: aqua;
 }
 .LogofitC{
+  aspect-ratio: 1/1;
+  width: 350px;
+  height: 270px;
   border-radius: 50%;
-  border: solid purple 3px;
+  background-color: aqua;
 }
 .hmenu:hover { 
   background-color: black;
