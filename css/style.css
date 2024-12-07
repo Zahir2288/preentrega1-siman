@@ -17,6 +17,12 @@ h1,h2,h3 {
   font-family: "Salsa", cursive;;
 }
 body{background-color: aqua;}
+.body {background-color: aqua;}
+.hrs{
+  background-color: red;
+  color: gray;
+  height: 4px;
+}
 nav ul li {
   font-size: 22px;
   margin: 5px;
