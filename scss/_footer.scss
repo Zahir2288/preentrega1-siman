@@ -1,7 +1,8 @@
 
 footer{
-    .Mayùscula{
-        .Px20{height: 10px;
-        }
+    .mayuscula{ @extend.Mayuscula;
+        .Px20{
+            font-size: 20px;}
+        
     }
 }

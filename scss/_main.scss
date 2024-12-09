@@ -1,0 +1,21 @@
+main
+{
+    
+    .centronegro{
+        text-align: center;
+        color: black;
+        h2 {@extend h1};
+        .p1 
+        {color: black;
+          font-size: 1.4rem;
+          margin: 30px;
+          font-family: "Inter", sans-serif;
+          padding: 15px;
+          line-height: 1.5;
+        }
+    }
+    .Centroverde {@extend .centronegro}  
+        h2{ color: green};
+        .p2{ @extend .p1};
+    }
+    

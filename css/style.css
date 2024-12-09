@@ -1,32 +1,69 @@
-@charset "UTF-8";
-head .Mayuscula {
-  aspect-ratio: 1/1;
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+head title .Mayuscula, head title footer .mayuscula, footer head title .mayuscula, head title header .Logofit .LogofitC, header .Logofit head title .LogofitC {
+  text-transform: capitalize;
+  margin: 20px;
 }
 
 body {
   background-color: aqua;
 }
-body .Mayuscula .Logofit {
-  margin: auto;
+
+header .Logofit {
+  text-align: center;
+  background-color: aqua;
 }
-body .Mayuscula .Logofit .LogofitC {
-  margin: auto;
+header .Logofit .LogofitC {
+  width: 350px;
+  height: 270px;
+  border-radius: 50%;
+  background-color: aqua;
 }
-body nav ul .hmenu {
-  margin: auto;
+header .Logofit {
+  text-align: center;
+  background-color: aqua;
 }
-body main .centronegro {
-  margin: auto;
+header .Logofit .LogofitC {
+  width: 350px;
+  height: 270px;
+  border-radius: 50%;
+  background-color: aqua;
 }
-body main .centroverde {
-  margin: auto;
+header h1, header main .centronegro h2, header main .Centroverde h2, main .centronegro header h2, main .Centroverde header h2, header h2 {
+  font-family: cursive;
 }
-body main .Mayuscula .Px20 {
-  margin: auto;
+header nav, header nav ul {
+  font-size: 22px;
+  border: purple solid auto;
+  margin: 1px;
+}
+header nav ul li .hmenu:hover {
+  background-color: black;
+  color: blue;
+  border-radius: 20px;
 }
 
-footer .Mayùscula .Px20 {
-  height: 10px;
+main .centronegro, main .Centroverde {
+  text-align: center;
+  color: black;
+}
+main .centronegro .p1, main .centronegro .p2, main .Centroverde .p1, main .Centroverde .p2 {
+  color: black;
+  font-size: 1.4rem;
+  margin: 30px;
+  font-family: "Inter", sans-serif;
+  padding: 15px;
+  line-height: 1.5;
+}
+main h2 {
+  color: green;
+}
+footer .mayuscula .Px20 {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=Style.css.map */

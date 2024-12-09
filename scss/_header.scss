@@ -1,0 +1,39 @@
+header{
+    .Logofit{ 
+        text-align: center;
+        background-color: $color_fondo;
+        .LogofitC{ 
+            @extend.Mayuscula;
+            width: 350px;
+            height: 270px;
+            border-radius: 50%;
+            background-color: $color_fondo;
+        }
+    }
+    .Logofit{ 
+        text-align: center;
+        background-color: $color_fondo;
+        .LogofitC{ 
+            @extend.Mayuscula;
+            width: 350px;
+            height: 270px;
+            border-radius: 50%;
+            background-color: $color_fondo;
+        }
+    }
+    h1{font-family: cursive;}
+        h2 {@extend h1}
+        nav {font-size: 22px;
+             border: purple solid auto;
+             margin: 1px;
+           ul{@extend nav; 
+            li{ 
+            .hmenu{ 
+                &:hover{
+                background-color: black;
+                color: blue;
+                border-radius: 20px;
+            }
+        }}
+    }
+}}
