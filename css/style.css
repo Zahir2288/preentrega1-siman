@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-head title .Mayuscula, head title footer .mayuscula, footer head title .mayuscula, head title header .Logofit .LogofitC, header .Logofit head title .LogofitC {
+head title .Mayuscula, head title header .Logofit .LogofitC, header .Logofit head title .LogofitC {
   text-transform: capitalize;
   margin: 20px;
+  text-align: center;
 }
 
 body {
@@ -33,13 +34,36 @@ header .Logofit .LogofitC {
   border-radius: 50%;
   background-color: aqua;
 }
-header h1, header main .centronegro h2, header main .Centroverde h2, main .centronegro header h2, main .Centroverde header h2, header h2 {
+header h1 {
   font-family: cursive;
+  text-align: center;
+}
+header h2 {
+  font-family: cursive;
+  text-align: auto;
+  margin-bottom: 10px;
 }
 header nav, header nav ul {
   font-size: 22px;
   border: purple solid auto;
   margin: 1px;
+}
+header nav ul, header nav ul ul {
+  list-style-type: none;
+}
+header nav ul li, header nav ul ul li {
+  font-size: 22px;
+  margin: 10px;
+  display: inline-block;
+}
+header nav ul li .hmenu, header nav ul ul li .hmenu {
+  color: black;
+  font-size: 1em;
+  margin: 5px;
+  border: purple 1px solid;
+  padding: 2px;
+  background-color: grey;
+  margin-bottom: 20px;
 }
 header nav ul li .hmenu:hover {
   background-color: black;
@@ -51,18 +75,27 @@ main .centronegro, main .Centroverde {
   text-align: center;
   color: black;
 }
+main .centronegro h2, main .Centroverde h2 {
+  color: black;
+}
 main .centronegro .p1, main .centronegro .p2, main .Centroverde .p1, main .Centroverde .p2 {
   color: black;
   font-size: 1.4rem;
-  margin: 30px;
+  margin-bottom: 20px;
   font-family: "Inter", sans-serif;
   padding: 15px;
   line-height: 1.5;
+  text-align: left;
 }
 main h2 {
   color: green;
 }
-footer .mayuscula .Px20 {
+footer {
+  padding: 18px;
+  font-family: "noto serif", serif;
+  margin: 10px;
+}
+footer .Mayuscula .Px20, footer header .Logofit .LogofitC .Px20, header .Logofit footer .LogofitC .Px20 {
   font-size: 20px;
 }
 

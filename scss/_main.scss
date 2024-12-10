@@ -4,18 +4,22 @@ main
     .centronegro{
         text-align: center;
         color: black;
-        h2 {@extend h1};
+        h2 {color: black};
         .p1 
         {color: black;
           font-size: 1.4rem;
-          margin: 30px;
+          margin-bottom: 20px;
           font-family: "Inter", sans-serif;
           padding: 15px;
           line-height: 1.5;
+          text-align: left;
         }
-    }
+        } 
+    
     .Centroverde {@extend .centronegro}  
-        h2{ color: green};
+        h2 {color: green};
         .p2{ @extend .p1};
+     
     }
+    
     

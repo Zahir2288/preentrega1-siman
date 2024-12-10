@@ -1,6 +1,8 @@
 
-footer{
-    .mayuscula{ @extend.Mayuscula;
+footer{ padding: 18px;
+    font-family: "noto serif", serif;
+    margin: 10px;
+    .Mayuscula{ @extend.Mayuscula;
         .Px20{
             font-size: 20px;}
         
