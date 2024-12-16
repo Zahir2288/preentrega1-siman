@@ -65,6 +65,35 @@ main
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
             }
         }
+        .sedem{
+            margin-bottom: 20px;
+            .imgsed1{aspect-ratio: 1/1;
+            width: 250px;}
+            .imgsed2{aspect-ratio: 1/1;
+            width: 270px;
+            height: 250px;}
+        .imgsed3{@extend.imgsed1};
+        .imgsed4{@extend.imgsed1};
+        }
+        .caja{ width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            border: 2px solid blue;
+            text-align: center;
+            line-height: 100px;
+            margin: 5px;
+            flex-grow: -1;
+        }
+        .contenedor{ 
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .caja{@extend .caja}
+        }
+
     }
     
     
