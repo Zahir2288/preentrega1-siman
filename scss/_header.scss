@@ -1,0 +1,70 @@
+header{
+    .Logofit{ 
+        text-align: center;
+        background-color: $color_fondo;
+        .LogofitC{ 
+            @extend.Mayuscula;
+            width: 350px;
+            height: 270px;
+            border-radius: 50%;
+            background-color: $color_fondo;
+        }
+    }
+    .Logofit{ 
+        text-align: center;
+        background-color: $color_fondo;
+        .LogofitC{ 
+            @extend.Mayuscula;
+            width: 350px;
+            height: 270px;
+            border-radius: 50%;
+            background-color: $color_fondo;
+        }
+    }
+    h1{font-family: cursive;
+    text-align: center;}
+        h2 {font-family: cursive;
+        text-align: auto;
+    margin-bottom: 10px;}
+        nav {font-size: 22px;
+             border: purple solid auto;
+             margin: 1px;
+           ul{@extend nav;
+            list-style-type: none; 
+            li{ font-size: 22px;
+                margin: 10px;
+                display: inline-block;   
+            .hmenu{ 
+                color: black;
+                font-size: 1em;
+                margin: 5px;  
+                border: purple 1px solid;
+                padding: 2px;
+                background-color: grey; 
+                margin-bottom: 20px;           
+                &:hover{
+                background-color: black;
+                color: blue;
+                border-radius: 20px;
+            }
+        }}
+    }
+}
+.navbar{
+    background-color: rgb(1, 1, 10);
+    ul{  display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    
+        li{ margin: 0 15px;
+            .navbar2{ color: rgb(243, 243, 239);
+                text-decoration: none;
+                padding: 15px 20px;
+                display: block;
+            }
+        }
+    }
+}
+}
+

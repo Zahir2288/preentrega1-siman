@@ -1,0 +1,116 @@
+main
+{
+    .centronegro{
+        text-align: center;
+        color: black;
+        h2 {color: black};
+        .p1 
+        {color: black;
+          font-size: 1.4rem;
+          margin-bottom: 20px;
+          font-family: "Inter", sans-serif;
+          padding: 15px;
+          line-height: 1.5;
+          text-align: left;
+        }
+        } 
+        div{
+            .imgGral
+               {aspect-ratio: 1/1;
+                width: 400px;
+                height: 350px;
+                margin-left: 35%;}
+        }
+    
+    .Centroverde {@extend .centronegro}  
+        h2 {text-align: center;
+            color: green};
+        .p2{ @extend .p1};
+     
+        .textimg{
+            position: relative;
+            width: 300px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+
+            .grid-container{
+                display: grid;
+                height: 100vh ;
+                grid-template-columns: repeat(2, 300px);
+                grid-template-rows: repeat(6, 200px);
+                gap: 5px;
+              
+                .grid-item{
+                    background-color: aqua;
+                    text-align: left;
+                    width: 300px;
+                    height: 200px;
+                    gap: 10px;
+                    margin: 10px;
+                  
+
+                .fc{
+                    text-align: left;
+                    aspect-ratio: 1/1;
+                    width: 300px;
+                    height: 200px;
+                    gap: 20px;
+                    margin-left: 20px;
+                  
+                }}
+
+                .imgtext{text-align: center;
+                color: black;
+                font-size: 1.4rem;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+                .imgtext2{text-align: center;
+                color: brown;
+            font-size: 1.6rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+            }
+        }
+        .sedem{
+            margin-bottom: 20px;
+            .imgsed1{aspect-ratio: 1/1;
+            width: 250px;}
+            .imgsed2{aspect-ratio: 1/1;
+            width: 270px;
+            height: 250px;}
+        .imgsed3{@extend.imgsed1};
+        .imgsed4{@extend.imgsed1};
+        }
+        .caja{ width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            border: 2px solid blue;
+            text-align: center;
+            line-height: 100px;
+            margin: 5px;
+            flex-grow: -1;
+        }
+        .contenedor{ 
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .caja{@extend .caja}
+        }
+    }
+    .container{ display: flex;
+        .sidebar{  width: 25%;
+            background-color: aquamarine;
+            padding: 20px;
+        }
+        .main-content{  width: 75%;
+            background-color: brown;
+            padding: 20px;
+        }
+    }
+    
+    
+

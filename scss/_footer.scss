@@ -1,0 +1,21 @@
+footer{ padding: 18px;
+    font-family: "noto serif", serif;
+    margin: 10px;
+    nav{
+        ol{
+            li{
+              .hmenu{@extend .hmenu}
+                .hmenu2 { display: block; 
+                    position: absolute;
+                    border-radius: 40%;
+                      width: 30px;
+                      height: 30px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      margin-left: 25px;
+                      background-color: aqua;
+                      color: green;}  
+            }
+        }
+    }
+}

@@ -60,6 +60,13 @@ margin: 1px;
     margin: 10px;
     display: inline-block;
   }
+  .p1{color: black;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    padding: 15px;
+    line-height: 1.5;
+    text-align: left;}
   a{
     color: black;
     font-size: 1em;
@@ -84,9 +91,11 @@ margin: 1px;
     grid-template-columns: 1fr;
     gap: 8px;
   }
-  .imgGral1{
-    width: 100%;
-    height: auto;
+  .imgGral{
+    aspect-ratio: 1/1;
+    width: 400px;
+    height: 350px;
+    margin-left: 35%;
   }
   .imgsed1{
     aspect-ratio: 1/1;

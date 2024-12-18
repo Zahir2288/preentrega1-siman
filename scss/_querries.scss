@@ -1,0 +1,26 @@
+@media screen  and (max-width: 768px) {
+    .container3{
+      height: 80vh;
+      display: grid;
+      grid-template-rows: 1fr 2fr 1fr;
+      grid-template-columns: repeat(2 auto);
+      gap: 5px;
+      grid-template-areas: 
+      "headervi  headervi"
+      "mainvi   asidevi";}
+     
+      .mainvi{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;}
+    }
+  
+  @media screen and (max-width: 480px){
+  
+    .mainvi{
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(3, 1fr);}
+      .footervi{
+        background-color: chartreuse;
+        grid-area: footervi;}
+  }
+  
