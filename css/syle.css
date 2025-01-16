@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+head title .Mayuscula, head title header .Logofit .LogofitC, header .Logofit head title .LogofitC {
+  text-transform: capitalize;
+  margin: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+header .Logofit {
+  text-align: center;
+  background-color: aquamarine;
+}
+header .Logofit .LogofitC {
+  width: 350px;
+  height: 270px;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+header .Logofit {
+  text-align: center;
+  background-color: aquamarine;
+}
+header .Logofit .LogofitC {
+  width: 350px;
+  height: 270px;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+header h1 {
+  font-family: cursive;
+  text-align: center;
+}
+header h2 {
+  font-family: cursive;
+  text-align: auto;
+  margin-bottom: 10px;
+}
+header nav, header nav ul {
+  font-size: 22px;
+  border: purple solid auto;
+  margin: 1px;
+}
+header nav ul, header nav ul ul {
+  list-style-type: none;
+}
+header nav ul li, header nav ul ul li {
+  font-size: 22px;
+  margin: 10px;
+  display: inline-block;
+}
+header nav ul li .hmenu, header footer nav ul ol li .hmenu, footer header nav ul ol li .hmenu, header footer nav ol ul li .hmenu, footer header nav ol ul li .hmenu, footer header nav ul ol li .hmenu, header nav footer ul ol li .hmenu, header nav ul ul li .hmenu, header footer nav ul ul ol li .hmenu, footer header nav ul ul ol li .hmenu, header footer nav ol ul ul li .hmenu, footer header nav ol ul ul li .hmenu, footer header nav ul ul ol li .hmenu, footer header nav ul ol ul li .hmenu, header nav footer ul ul ol li .hmenu, header nav footer ul ol ul li .hmenu {
+  color: black;
+  font-size: 1em;
+  margin: 5px;
+  border: purple 1px solid;
+  padding: 2px;
+  background-color: grey;
+  margin-bottom: 20px;
+}
+header nav ul li .hmenu:hover {
+  background-color: black;
+  color: blue;
+  border-radius: 20px;
+}
+header .navbar {
+  background-color: rgb(1, 1, 10);
+}
+header .navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header .navbar ul li {
+  margin: 0 15px;
+}
+header .navbar ul li .navbar2 {
+  color: rgb(243, 243, 239);
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+}
+
+main .centronegro, main .Centroverde {
+  text-align: center;
+  color: black;
+}
+main .centronegro h2, main .Centroverde h2 {
+  color: black;
+}
+main .centronegro .p1, main .centronegro .p2, main .Centroverde .p1, main .Centroverde .p2 {
+  color: black;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  padding: 15px;
+  line-height: 1.5;
+  text-align: left;
+}
+main div .imgGral {
+  aspect-ratio: 1/1;
+  width: 400px;
+  height: 350px;
+  margin-left: 35%;
+}
+main h2 {
+  text-align: center;
+  color: green;
+}
+main .textimg {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+main .textimg .grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(6, 200px);
+  gap: 5px;
+}
+main .textimg .grid-container .grid-item {
+  background-color: aqua;
+  text-align: left;
+  width: 300px;
+  height: 200px;
+  gap: 10px;
+  margin: 10px;
+}
+main .textimg .grid-container .grid-item .fc {
+  text-align: left;
+  aspect-ratio: 1/1;
+  width: 300px;
+  height: 200px;
+  gap: 20px;
+  margin-left: 20px;
+}
+main .textimg .grid-container .imgtext {
+  text-align: center;
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main .textimg .grid-container .imgtext2 {
+  text-align: center;
+  color: brown;
+  font-size: 1.6rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main .sedem {
+  margin-bottom: 20px;
+}
+main .sedem .imgsed1, main .sedem .imgsed4, main .sedem .imgsed3 {
+  aspect-ratio: 1/1;
+  width: 250px;
+}
+main .sedem .imgsed2 {
+  aspect-ratio: 1/1;
+  width: 270px;
+  height: 250px;
+}
+main .caja, main .contenedor .caja {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  border: 2px solid blue;
+  text-align: center;
+  line-height: 100px;
+  margin: 5px;
+  flex-grow: -1;
+}
+main .contenedor {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+}
+.container .sidebar {
+  width: 25%;
+  background-color: aquamarine;
+  padding: 20px;
+}
+.container .main-content {
+  width: 75%;
+  background-color: brown;
+  padding: 20px;
+}
+
+footer {
+  padding: 18px;
+  font-family: "noto serif", serif;
+  margin: 10px;
+}
+footer nav ol li .hmenu2, footer header nav ul ol li .hmenu2, header nav footer ul ol li .hmenu2 {
+  display: block;
+  position: absolute;
+  border-radius: 40%;
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  background-color: aqua;
+  color: green;
+}
+
+@media screen and (max-width: 768px) {
+  .container3 {
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: repeat(2 auto);
+    gap: 5px;
+    grid-template-areas: "headervi  headervi" "mainvi   asidevi";
+  }
+  .mainvi {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mainvi {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .footervi {
+    background-color: chartreuse;
+    grid-area: footervi;
+  }
+}
+
+/*# sourceMappingURL=syle.css.map */
